@@ -1,0 +1,14 @@
+TƯƠNG TÁC CLICK TRONG REACTJS
+
+Thongbao = () => { alert ("Day la thong bao");}
+
+
+Thongbao2= (x) => {alert (x);}
+
+
+
+<button onClick={this.Thongbao}><button/>
+<button onClick={() => this.Thongbao}><button/>
+
+<button onClick={() =>this.Thongbao2("Day la thong bao 2")}><button/>
+<button onClick= {this.Thongbao2.bind(this,"Day la thong bao 2 cach 2")}><button/>
